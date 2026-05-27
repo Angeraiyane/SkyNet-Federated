@@ -1,0 +1,19 @@
+# Caches Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Fichiers de données locaux
+*.json
+*.log
+
+# Fichiers système Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Configuration d'IDE
+.vscode/
+.idea/
