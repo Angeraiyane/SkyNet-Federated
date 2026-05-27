@@ -18,7 +18,7 @@ This project was developed as part of the Master's program in AI \& Data Computi
 
 The decentralized infrastructure is built around three core pillars:
 
-1\. **High-Frequency Ingestion Pipeline (Apache Kafka \& ZooKeeper):** A robust distributed streaming backbone capable of absorbing raw OpenSky state vectors and syncing federated nodes via an advanced replication mechanism (Replication Factor = 3).
+1\. **High-Frequency Ingestion Pipeline (Apache Kafka \& ZooKeeper):** A robust distributed streaming backbone capable of absorbing raw OpenSky state vectors and syncing federated nodes via an advanced replication mechanism (Replication Factor = 3). (here we just absorb 100 vectors per 2 minutes, so feel free to change that according to your computer characterictics)
 
 2\. **Edge Intelligence (Federated Clients):** Autonomous edge agents simulating key geographical nodes (**FST\_BM** tracking Africa/Asia/Americas and **TOGO** tracking Europe/Oceania). These nodes continuously train a local `SGDRegressor` model on incoming live streams using incremental online learning.
 
